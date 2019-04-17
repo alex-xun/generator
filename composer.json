@@ -1,0 +1,21 @@
+{
+    "name": "xunzhibin/generator",
+    "description": "ID generator",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Xun",
+            "email": "xunzhibin@aliyun.com"
+        }
+    ],
+    "minimum-stability": "dev",
+	"autoload": {
+		"psr-4": {
+			"Tools\\":"src/Tools"
+		}
+	},
+    "require": {
+		"php": ">=5.6"
+	}
+}
