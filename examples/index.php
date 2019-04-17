@@ -7,20 +7,14 @@
  * @author    Alex Xun xunzhibin@expert.com
  * @version   1.0
  * @copyright (C) 2019 Jnexpert Ltd. All rights reserved
- * @file      Tools.php
+ * @file      index.php
  */
 
-namespace Tools;
+require_once '../vendor/autoload.php';
 
-class Tools
-{
-    public function __construct()
-    {
-    }
+use Generator\SnowFlake\SnowFlake;
 
-    public static function hi()
-    {
-        echo 'he';
-    }
-}
+$app = new SnowFlake();
+
+echo $app->generate();
 
