@@ -3,7 +3,7 @@
 
 ## Installation(安装)
 
-	composer create-project xunzhibin/generator
+	composer require xunzhibin/generator
 	
 ## Usage(使用)
 
